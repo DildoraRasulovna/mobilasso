@@ -116,8 +116,7 @@ $(".newproducts").on("click", () => {
 // Filter
 for (let i = 0; i < $(".brands").length; i++) {
     $(".brands")[i].addEventListener("click", function () {
-        let titleName = "SAMSUNG";
-        console.log(titleName);
+        let titleName = this.innerHTML;
         brandFilter(titleName);
     });
 }
@@ -127,14 +126,13 @@ function brandFilter(titleName) { // Apple
         titlePro = data;
     } else {
         titlePro = data.filter((elem) => {
-            if (elem.title === titleName) {
+            if (elem.title.includes(titleName)) {
                 return true;
             } else {
                 return false;
             }
         });
     }
-    console.log(titlePro);
     buildProductView(titlePro)
 
 }
