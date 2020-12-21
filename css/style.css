@@ -1,0 +1,52 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  font-family: "Great Vibes";
+  font-size: 50px;
+  text-shadow: 2px 2px 5px rgba(66, 60, 63, 0.88);
+}
+.btn .fa.fa-sm {
+  font-size: 1rem;
+  margin-top: -5px;
+}
+.card-img-top {
+  width: 100%;
+}
+.heading {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(23, 150, 209);
+  text-shadow: 2px 2px 5px rgb(239, 243, 245);
+  border-width: 5px !important;
+}
+.scroll {
+  position: fixed;
+  z-index: 3;
+  right: 20px;
+  bottom: 20px;
+}
+.fa-chevron-up {
+  color: #437dc8;
+  background: none;
+  border-radius: 100%;
+  border: 2px solid #4e77b9;
+  padding: 10px;
+  font-size: 1.5rem;
+  transition: 1s;
+}
+.fa-chevron-up:hover {
+  color: #333;
+  background-color: #695ecd;
+}
+
+.dropdown-menu {
+  z-index: 4;
+}
+.card-margin {
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
