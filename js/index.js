@@ -1,7 +1,7 @@
 // const $ = require("jquery");
 let data = [
     {
-        imgUrl: "images/cart16.jpg",
+        imgUrl: "images/cart1.jpg",
         title: "Iphone 12 Pro",
         rate: 5,
         watch: 686,
@@ -10,7 +10,7 @@ let data = [
         description: "6.1 inch Display.128GB."
     },
     {
-        imgUrl: "images/section17.png",
+        imgUrl: "images/card4.jpg",
         title: "MI Note 10 Lite",
         rate: 4,
         watch: 554,
@@ -20,7 +20,7 @@ let data = [
     },
     {
         imgUrl: "images/cart12.jpg",
-        title: "Samsung S12",
+        title: "SAMSUNG S12",
         rate: 4.5,
         watch: 489,
         price: 750,
@@ -28,13 +28,13 @@ let data = [
         description: "48d Camera.600mAp.256GB."
     },
     {
-        imgUrl: "images/cart14.jpg",
-        title: "Samsung  Galaxy  S20",
+        imgUrl: "images/card8.jpg",
+        title: "SAMSUNG S20",
         rate: 4,
         watch: 789,
         price: 400,
         year: 2018,
-        description: "Triple Camera.Live Focus.3.500mAp."
+        description: "Triple Camera.3.500mAp."
     },
     {
         imgUrl: "images/cart18.jpg",
@@ -46,7 +46,7 @@ let data = [
         description: "360 camera.Dual SIM.256GB."
     },
     {
-        imgUrl: "images/cart20.jpg",
+        imgUrl: "images/card7.jpeg",
         title: "Huawei P40 Pro",
         rate: 4.5,
         watch: 259,
@@ -64,7 +64,7 @@ let data = [
         description: "Full CameraDual SIM.156GB."
     },
     {
-        imgUrl: "images/cart22.png",
+        imgUrl: "images/card9.webp",
         title: "Sony Xperia 11",
         rate: 4,
         watch: 239,
@@ -73,14 +73,72 @@ let data = [
         description: ".5GB chipset.Earphones for free. "
     },
     {
-        imgUrl: "images/cart24.jpg",
+        imgUrl: "images/card16.jpeg",
         title: "Huawei P30",
         rate: 3.8,
-        watch: 189,
+        watch: 309,
         price: 499,
         year: 2019,
         description: "5GB chipset.Dual SIM.256GB."
-    }
+    },
+
+    {
+        imgUrl: "images/iphone.jpg",
+        title: "Iphone 11",
+        rate: 3.9,
+        watch: 359,
+        price: 510,
+        year: 2019,
+        description: "4GB chipset.Dual SIM.64GB."
+    },
+    {
+        imgUrl: "images/card10.jpg",
+        title: "Huawei P40",
+        rate: 4.3,
+        watch: 219,
+        price: 499,
+        year: 2020,
+        description: "5GB chipset.Dual SIM.256GB."
+    },
+    {
+        imgUrl: "images/card11.jpg",
+        title: "Sony L1",
+        rate: 3.8,
+        watch: 489,
+        price: 319,
+        year: 2019,
+        description: "5GB chipset.Dual SIM.256GB."
+    },
+    {
+        imgUrl: "images/card14.jpg",
+        title: "Nokia 7.5",
+        rate: 3.8,
+        watch: 189,
+        price: 199,
+        year: 2019,
+        description: "5GB chipset.Dual SIM.256GB."
+    },
+    {
+        imgUrl: "images/card13.jpg",
+        title: "Nokia mini",
+        rate: 3.8,
+        watch: 189,
+        price: 380,
+        year: 2020,
+        description: "5GB chipset.Dual SIM.256GB."
+    },
+    {
+        imgUrl: "images/card15.webp",
+        title: "SAMSUNG S5",
+        rate: 3.8,
+        watch: 189,
+        price: 380,
+        year: 2017,
+        description: "5GB chipset.Dual SIM.256GB."
+    },
+
+
+
 
 ];
 
@@ -143,7 +201,7 @@ function buildProductView(products) {
         let product = '<div class="col-md-4 col-sm-12  no-gutters mt-2" data-aos="zoom-in">' +
             '<div class="card booking-card border border-secondary m-2 m-sm-0  " style="max-width:280px;max-height:500px;">' +
             '<div class="view overlay hvr-wooble top" style="max-height:290px;">' +
-            '<img class="card-img-top" src="' + elem.imgUrl + '" alt="Card image cap"style= "max-height:290px">' +
+            '<img class="card-img-top" src="' + elem.imgUrl + '" alt="Card image cap"style= "height:250px">' +
             '<a href="#!">' +
             '<div class="mask rgba-white-slight"></div>' +
             '</a>' +
